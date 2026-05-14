@@ -25,3 +25,22 @@ dockerImage=docker.build registry
 
 }
 }
+
+
+
+
+
+dockerfile
+
+FROM python
+WORKDIR /app
+COPY . /app
+CMD["Python","Sample.py"]
+
+
+
+
+
+sample
+
+print("hello world")
